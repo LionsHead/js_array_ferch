@@ -8,6 +8,4 @@ const arrayFetch = (arr, index, def) => {
   return (arr[index] !== undefined) ? arr[index] : def;
 }
 // END
-export default {
-  arrayFetch,
-};
+export default arrayFetch;
